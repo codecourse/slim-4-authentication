@@ -1,0 +1,49 @@
+{% extends 'layouts/app.twig' %}
+
+{% block content %}
+    <div class="section">
+        <div class="container">
+            <div class="column is-4 is-offset-4">
+                <h3 class="title has-text-centered">
+                    Sign up
+                </h3>
+                
+                <form action="#" method="post">
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input class="input" type="text" name="email" placeholder="e.g alex@codecourse.com">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">First name</label>
+                        <div class="control">
+                            <input class="input" type="text" name="first_name" placeholder="e.g Alex">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Last name</label>
+                        <div class="control">
+                            <input class="input" type="text" name="last_name" placeholder="e.g Garrett-Smith">
+                        </div>
+                    </div>
+                    
+                    <div class="field">
+                        <label class="label">Password</label>
+                        <div class="control">
+                            <input class="input" type="password" name="password">
+                        </div>
+                    </div>
+
+                    <div class="control">
+                        <button type="submit" class="button is-info">
+                            Sign up
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
